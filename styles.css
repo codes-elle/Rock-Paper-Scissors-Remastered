@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body{ 
+    background-color: lightblue;
+    color: #fff;
+}
+
+.heading{
+    
+}
+
+.gameName{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.score{
+    font-size: 20px;
+}
+
+#scoreNumber{
+
+}
+
+.hand-container{
+    margin: 30px;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border: 150px solid transparent;
+    border-bottom: 300px solid black;
+}
+
+div.paper{
+    border-image: linear-gradient(to right, yellow, purple, red);
+    
+    border: 10px solid blue;
+}
+
+.scissors{
+    border: 10px solid yellow;
+}
+
+.rock{
+    border: 10px solid red;
+}
+
+
+div.paper,
+div.scissors,
+div.rock{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
